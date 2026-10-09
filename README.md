@@ -1,6 +1,6 @@
 # uniswap-v2-arbitrum
 
-A [nuthatch](https://github.com/nightswatchhq/nuthatch) nest: **Uniswap V2 on Arbitrum**.
+A [nuthatch](https://github.com/nuthatch-org/nuthatch) nest: **Uniswap V2 on Arbitrum**.
 
 As `uniswap-v2`, re-pointed at Arbitrum.
 
@@ -25,7 +25,7 @@ Indexed blocks **496,878,106 to 497,273,932** and sealed **6 events**. Every tab
 ## Run it
 
 ```sh
-nuthatch init --from https://github.com/nightswatchhq/uniswap-v2-arbitrum
+nuthatch init --from https://github.com/nuthatch-org/uniswap-v2-arbitrum
 cd uniswap-v2-arbitrum
 nuthatch dev --dir . --backfill 50000 --seal-direct
 nuthatch sql --dir . "SELECT count(*) FROM \"factory__pair_created\""
